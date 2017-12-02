@@ -1,6 +1,8 @@
-# PList
+# Simple PList Parser
 
-A module for reading and writing OS X plists in ASCII format. This is the property list format that originated on NeXTSTEP. The binary and XML format commonly used on Mac today is presently not supported
+There is now a [new version](https://github.com/ordovician/PLists.jl) of this parser. I am keeping this around because the implementation is very simply so it is useful in teaching or learning how to implement a lexer and a parser.
+
+This is a Julia package which allows you to read OS X plists in ASCII format. This is the property list format that originated on NeXTSTEP. The binary and XML format commonly used on Mac today is presently not supported
 
 Example of plist ASCII format:
 
